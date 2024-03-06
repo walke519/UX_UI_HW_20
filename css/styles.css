@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+/*NAVBAR CUSTOMIZATION*/
+.navbar-brand img {
+    width: 120px;
+}
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    font-family: 'Monterrat', sans-serif !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5rem !important;
+    color: white !important;
+}
+/*Hamburger menu customization*/
+.navbar-toggler {
+    background-color: black;
+}
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+/*Navbar Active State Pseudo-element*/
+.navbar-nav .nav-link.active {
+    position: relative;
+}
+/*Active State Underline effect*/
+.navbar-nav .nav-link.active::after {
+    content: ''; /* Display */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px; /* Width of the element */
+    height: 2px; /* Thickness of the underline */
+    background-color: white; /* Underline color */
+}
+/*JUMBOTRON CUSTOMIZATION*/
+.jumbotron {
+    background-color: black;
+}
+.custom-jumbotron {
+    background-image: url('../images/AAA-Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% center;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+@media (min-width: 992px) { /* This applies to screens wider than 992px, adjust as needed */
+    .custom-jumbotron {
+        background-size: 500px;
+        height: 600px;
+    }
+}
+.container h1 {
+    font-size: 80px;
+}
+.container p {
+    font-size: 40px;
+    font-weight: 600;
+}
+/*MEET THE TEAM*/
+h2 {
+    font-size: 48px;
+    font-weight: 250;
+}
+.team {
+    margin-top: 450px;
+    margin-bottom: 400px;
+}
+.team-content p {
+    font-size: 32px;
+    font-weight: 500;
+}
+/*OVERVIEW*/
+.card {
+    background-color: black;
+    margin: 0px 25% 400px 25%;
+}
+.card-title {
+
+}
+.card-body p {
+    font-size: 20px;
+}
+.yellow {
+    color: #FDB714;
+}
