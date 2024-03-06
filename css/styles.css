@@ -61,10 +61,10 @@ body {
         height: 600px;
     }
 }
-.container h1 {
+.hero-content h1 {
     font-size: 80px;
 }
-.container p {
+.hero-content p {
     font-size: 40px;
     font-weight: 600;
 }
@@ -82,16 +82,49 @@ h2 {
     font-weight: 500;
 }
 /*OVERVIEW*/
-.card {
+.blurb {
     background-color: black;
     margin: 0px 25% 400px 25%;
 }
-.card-title {
-
-}
-.card-body p {
+.paragraph-text {
     font-size: 20px;
 }
 .yellow {
     color: #FDB714;
+}
+/*GOALS*/
+#goals h2{
+    margin-bottom: 150px;
+}
+.goal-card {
+    background-color: black;
+    margin-bottom: 300px;
+}
+.goal-card img {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+.goal-content {
+    font-size: 32px;
+    font-weight: 400;
+}
+/*USER PERSONA*/
+.card {
+    background-color: black;
+}
+.user-pic img {
+    width: 150px;
+}
+#user-persona h2 {
+    margin-bottom: 120px;
+}
+/*RESEARCH*/
+.section-head {
+    font-size: 180px;
+    font-weight: bolder;
+    width: 90vw;
+    opacity: 20%;
+    margin: 200px 0px;
 }
